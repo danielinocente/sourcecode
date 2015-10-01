@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Skinventor.exe" version="1.0.0.1" publicKeyToken="1dea2e6d1cd2211b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="skinventor_logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Skinventor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Skinventor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Skinventor.exe" size="612256">
+      <assemblyIdentity name="Skinventor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pgduTwkR9PGztwyMVrI6QHGt7/D6c23FKIwMdO5mtxY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Skinventor.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j5XMowm9qYcyNWR87Ke1KpLLXBlaYAR38CaZywZFE9o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Skinventor.ico" size="279958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>y3IXaefrfIhERhjEnnzrQmZ8rnZNdqpywPeKUbV475Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="skinventor_logo.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YlhStemdlXPkzLd4QDfhtBA8Z2PojlwBjsdgao71TXU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DINOA\User" issuerKeyHash="cde6057da7e14603468669cdc3b4278dde626252" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HoWXiyB4gPiiRKWXKf8VfQVFOsyeQbbM7yC0vZrmpTs=</DigestValue></Reference></SignedInfo><SignatureValue>lu/FjRGYcbD18P6y5PccGAU4yHPaHTng9jmoA3dSFl5W782X79yR5QRfXpEPy/9aumeAMNbf9I93nzGFaxUMRvlG5DeOUg9XMqi/Oru4Iuo6W+2Pardy+ZcmVXVR4uHY/QCAA+NKY8haLQpz+/Gdun+dL3vd8YreMTgQfgS+MuI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t4rjloi2yWnGuSUczlLjVHZjOckEeYtghvhlGH1gfp7ZAuI9mTHi0LcO90wMIthvqJLQPqd34/qZdtw2qpSZbN9+UD6mMCp30pnGd/YeNp7l+EfuJrgWEmI2IFtfYqyRLocO2faDKTeNvxkRcBjGnsbTgfBAVNc6qfmoKDTbqu0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3ba5e69abdb420efccb6419ecc3a45057d15ff2997a544a2f88078208b97851e" Description="" Url=""><as:assemblyIdentity name="Skinventor.exe" version="1.0.0.1" publicKeyToken="1dea2e6d1cd2211b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DINOA\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6+YayO8aA8hYX1KgBegEnVsqNrvKpfKP1sCHS2AWtOY=</DigestValue></Reference></SignedInfo><SignatureValue>XhVTATwbk/T4aVMPc1TOUxJ6QYNpGShzzTEnJgDb5Mfis/iDnDjwMyf2craP65+lTW8lLcMrTByL1ks1dv7ImNaifcaOEjkrv5jZn22l5ScBqmqVCoMTU/isJX6VJR3qleSslTMWmbXaWMFioC13Maqc0tAECVtJlBTrawFF7n8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t4rjloi2yWnGuSUczlLjVHZjOckEeYtghvhlGH1gfp7ZAuI9mTHi0LcO90wMIthvqJLQPqd34/qZdtw2qpSZbN9+UD6mMCp30pnGd/YeNp7l+EfuJrgWEmI2IFtfYqyRLocO2faDKTeNvxkRcBjGnsbTgfBAVNc6qfmoKDTbqu0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQaBDklFRH35BGX6MnXOjDDDANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQARABJAE4ATwBBAFwAVQBzAGUAcjAeFw0xNTEwMDEwMDAzMDdaFw0xNjA5MzAwNjAzMDdaMB8xHTAbBgNVBAMeFABEAEkATgBPAEEAXABVAHMAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3iuOWiLbJaca5JRzOUuNUdmM5yQR5i2CG+GUYfWB+ntkC4j2ZMeLQtw73TAwi2G+oktA+p3fj+pl23DaqlJls335QPqYwKnfSmcZ39h42nuX4R+4muBYSYjYgW19irJEuhw7Z9oMpN42/GRFwGMaextOB8EBU1zqp+agoNNuq7QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEpzfnin+txTexZgum82wKm4P46Zt1p/c0MOCkSanS2A94bywxdsiiiSKwbpZwi0tikSQ9FyNWKZ1eqddnwlF6nAlzNh8Dhu4wu3Tpps8DgslaFzhcItL4mQeeJg4FUO/ehm7MkRh6qf4RoJ4Ph22XP2bNsxD2e3hkyqGhufMIGe</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
